@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\.eclipseextension' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1612897550850'/>
+    <property name='org.eclipse.update.site.list' value=''/>
+    <property name='org.eclipse.update.site.policy' value='USER-EXCLUDE'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='46'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ui.templates' version='3.4.100.v20090527'>
+      <properties size='3'>
+        <property name='artifact.size' value='584514'/>
+        <property name='download.size' value='584514'/>
+        <property name='download.md5' value='1fca99bbb3d104797b5e43a7d66a2a05'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.pde.ui.templates_3.4.100.v20090527.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.pde.ui.templates_3.4.100.v20090527.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.com.bradesco.pdc.workbench.processeditor' version='3.4.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='515568'/>
+        <property name='download.size' value='515568'/>
+        <property name='download.md5' value='bbf27b08b5bb56a67a6f95cd07f6fddd'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/br.com.bradesco.pdc.workbench.processeditor_3.4.1.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\br.com.bradesco.pdc.workbench.processeditor_3.4.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.com.bradesco.pdc.workbench.admin' version='3.4.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='149436'/>
+        <property name='download.size' value='149436'/>
+        <property name='download.md5' value='34b7188ae7ccd3a3e3e3171cb11eae13'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/br.com.bradesco.pdc.workbench.admin_3.4.1.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\br.com.bradesco.pdc.workbench.admin_3.4.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.sysdeo.eclipse.tomcat' version='3.3.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/com.sysdeo.eclipse.tomcat_3.3.0/'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\com.sysdeo.eclipse.tomcat_3.3.0'/>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ds.core' version='1.0.1.v20100118'>
+      <properties size='3'>
+        <property name='artifact.size' value='54784'/>
+        <property name='download.size' value='54784'/>
+        <property name='download.md5' value='b5527de90f69c72c1d9f2e066d9d6a70'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.pde.ds.core_1.0.1.v20100118.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.pde.ds.core_1.0.1.v20100118.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.cpmbraxis.hexadev.runtime' version='1.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='82137'/>
+        <property name='download.size' value='82137'/>
+        <property name='download.md5' value='2ffeef6f19a282073eb1a3caea874ff3'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/com.cpmbraxis.hexadev.runtime_1.0.0.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\com.cpmbraxis.hexadev.runtime_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.core' version='5.6.0.201209221626'>
+      <properties size='3'>
+        <property name='artifact.size' value='804897'/>
+        <property name='download.size' value='804897'/>
+        <property name='download.md5' value='50255154ed2c79fc6620fa62d05b4c99'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/net.sf.eclipsecs.core_5.6.0.201209221626.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\net.sf.eclipsecs.core_5.6.0.201209221626.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.datatools.enablement.sap.maxdb' version='1.0.0.v200906020900'>
+      <properties size='3'>
+        <property name='artifact.size' value='17346'/>
+        <property name='download.size' value='17346'/>
+        <property name='download.md5' value='e327d859fa683db9849433f93a347bde'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.datatools.enablement.sap.maxdb_1.0.0.v200906020900.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.datatools.enablement.sap.maxdb_1.0.0.v200906020900.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.cpmbraxis.hexadev.shared' version='1.0.5'>
+      <properties size='3'>
+        <property name='artifact.size' value='5424492'/>
+        <property name='download.size' value='5424492'/>
+        <property name='download.md5' value='3e4f21059a4fb65903fec7598bbd3274'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/com.cpmbraxis.hexadev.shared_1.0.5.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\com.cpmbraxis.hexadev.shared_1.0.5.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.build' version='3.5.2.R35x_20100114'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.pde.build_3.5.2.R35x_20100114/'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.pde.build_3.5.2.R35x_20100114'/>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde' version='3.4.100.v201002111343'>
+      <properties size='3'>
+        <property name='artifact.size' value='69751'/>
+        <property name='download.size' value='69751'/>
+        <property name='download.md5' value='79617dcebbfe4b8aeef6d7d03d8bf978'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.pde_3.4.100.v201002111343.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.pde_3.4.100.v201002111343.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher.win32.win32.x86_64' version='1.0.200.v20090519'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.0.200.v20090519/'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.equinox.launcher.win32.win32.x86_64_1.0.200.v20090519'/>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.objectweb.asm' version='3.1.0.v200803061910'>
+      <properties size='3'>
+        <property name='artifact.size' value='220211'/>
+        <property name='download.size' value='220211'/>
+        <property name='download.md5' value='d5ab5342008872e59cda0572a933396e'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.objectweb.asm_3.1.0.v200803061910.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.objectweb.asm_3.1.0.v200803061910.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.com.bradesco.pdc' version='3.4.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='6026410'/>
+        <property name='download.size' value='6026410'/>
+        <property name='download.md5' value='4c9301bb92b9dbe81cbccdb9bc01b779'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/br.com.bradesco.pdc_3.4.1.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\br.com.bradesco.pdc_3.4.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.core' version='3.5.101.v20100104'>
+      <properties size='3'>
+        <property name='artifact.size' value='1056382'/>
+        <property name='download.size' value='1056382'/>
+        <property name='download.md5' value='473a8ea0f1f4ec496d3f9881d0b9fe74'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.pde.core_3.5.101.v20100104.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.pde.core_3.5.101.v20100104.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.ui' version='5.6.0.201209221626'>
+      <properties size='3'>
+        <property name='artifact.size' value='2203346'/>
+        <property name='download.size' value='2203346'/>
+        <property name='download.md5' value='d6f34692734b24ea226c230c77d36036'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/net.sf.eclipsecs.ui_5.6.0.201209221626.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\net.sf.eclipsecs.ui_5.6.0.201209221626.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.datatools.connectivity.oda.flatfile.ui' version='3.1.1.v201001131420'>
+      <properties size='3'>
+        <property name='artifact.size' value='55024'/>
+        <property name='download.size' value='55024'/>
+        <property name='download.md5' value='bc8a042fe77d5088f6bf42b3be222aec'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.datatools.connectivity.oda.flatfile.ui_3.1.1.v201001131420.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.datatools.connectivity.oda.flatfile.ui_3.1.1.v201001131420.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ua.ui' version='1.0.0.v20090511'>
+      <properties size='3'>
+        <property name='artifact.size' value='417584'/>
+        <property name='download.size' value='417584'/>
+        <property name='download.md5' value='c4c81654c2e9106ce1938bd9243ae4f1'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.pde.ua.ui_1.0.0.v20090511.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.pde.ua.ui_1.0.0.v20090511.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.junit.runtime' version='3.4.0.v20090527'>
+      <properties size='3'>
+        <property name='artifact.size' value='16047'/>
+        <property name='download.size' value='16047'/>
+        <property name='download.md5' value='d2065c9b582bce0a22f14b275809b0ad'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.pde.junit.runtime_3.4.0.v20090527.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.pde.junit.runtime_3.4.0.v20090527.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.jautodoc' version='1.5.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='314681'/>
+        <property name='download.size' value='314681'/>
+        <property name='download.md5' value='3739d9c65824569f9f98e991749c89dc'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/net.sf.jautodoc_1.5.0.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\net.sf.jautodoc_1.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.cpmbraxis.hexadev.ui' version='1.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='313396'/>
+        <property name='download.size' value='313396'/>
+        <property name='download.md5' value='cde0b9003e7199b22897715e4da1e574'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/com.cpmbraxis.hexadev.ui_1.0.0.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\com.cpmbraxis.hexadev.ui_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.doc' version='5.6.0.201209221626'>
+      <properties size='3'>
+        <property name='artifact.size' value='3772630'/>
+        <property name='download.size' value='3772630'/>
+        <property name='download.md5' value='9436a1f27e8d4eeae91449e13ced08c6'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/net.sf.eclipsecs.doc_5.6.0.201209221626.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\net.sf.eclipsecs.doc_5.6.0.201209221626.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.cpmbraxis.hexadev.core' version='1.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='5340960'/>
+        <property name='download.size' value='5340960'/>
+        <property name='download.md5' value='94937f3518fb0a9a5c73f18cf1b19a99'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/com.cpmbraxis.hexadev.core_1.0.0.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\com.cpmbraxis.hexadev.core_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.com.bradesco.pdc.workbench.exporter' version='3.4.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='38038'/>
+        <property name='download.size' value='38038'/>
+        <property name='download.md5' value='235c7f6508c414f9b765fc53271c273d'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/br.com.bradesco.pdc.workbench.exporter_3.4.1.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\br.com.bradesco.pdc.workbench.exporter_3.4.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.com.bradesco.pdc.workbench.browser' version='3.4.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='437480'/>
+        <property name='download.size' value='437480'/>
+        <property name='download.md5' value='54381932f45333878e4971417efb0e8d'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/br.com.bradesco.pdc.workbench.browser_3.4.1.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\br.com.bradesco.pdc.workbench.browser_3.4.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.datatools.enablement.sap.maxdb.dbdefinition' version='1.0.0.v200906161800'>
+      <properties size='3'>
+        <property name='artifact.size' value='19002'/>
+        <property name='download.size' value='19002'/>
+        <property name='download.md5' value='db268b1bc4ec93e298d22f66d6861324'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.datatools.enablement.sap.maxdb.dbdefinition_1.0.0.v200906161800.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.datatools.enablement.sap.maxdb.dbdefinition_1.0.0.v200906161800.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.checkstyle' version='5.6.0.201209221626'>
+      <properties size='3'>
+        <property name='artifact.size' value='1913181'/>
+        <property name='download.size' value='1913181'/>
+        <property name='download.md5' value='4a91393e5d23dd3002c506c70fbd7f4b'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/net.sf.eclipsecs.checkstyle_5.6.0.201209221626.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\net.sf.eclipsecs.checkstyle_5.6.0.201209221626.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.runtime' version='3.4.100.v20090731'>
+      <properties size='3'>
+        <property name='artifact.size' value='157402'/>
+        <property name='download.size' value='157402'/>
+        <property name='download.md5' value='95bf2bfdd6d307584cb5f6468b10e3c7'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.pde.runtime_3.4.100.v20090731.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.pde.runtime_3.4.100.v20090731.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ui' version='3.5.1.v201001121200'>
+      <properties size='3'>
+        <property name='artifact.size' value='4156379'/>
+        <property name='download.size' value='4156379'/>
+        <property name='download.md5' value='226c16f446fb0e95807a19f868caacc6'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.pde.ui_3.5.1.v201001121200.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.pde.ui_3.5.1.v201001121200.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.com.bradesco.ide.eclipse.wde' version='2.8.22'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/br.com.bradesco.ide.eclipse.wde_2.8.22/'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\br.com.bradesco.ide.eclipse.wde_2.8.22'/>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.com.bradesco.pdc.workbench.tester' version='3.4.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='165069'/>
+        <property name='download.size' value='165069'/>
+        <property name='download.md5' value='55dbbeb2e4dd25fcbaff87c3c55ef380'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/br.com.bradesco.pdc.workbench.tester_3.4.1.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\br.com.bradesco.pdc.workbench.tester_3.4.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools' version='1.0.101.v20090714'>
+      <properties size='3'>
+        <property name='artifact.size' value='638011'/>
+        <property name='download.size' value='638011'/>
+        <property name='download.md5' value='c0a46937caead447916aae37caf9426d'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.pde.api.tools_1.0.101.v20090714.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.pde.api.tools_1.0.101.v20090714.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.com.bradesco.pdc.workbench.core' version='3.4.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='362272'/>
+        <property name='download.size' value='362272'/>
+        <property name='download.md5' value='5e690ad04b3e6fe96e83f08ff17cd658'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/br.com.bradesco.pdc.workbench.core_3.4.1.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\br.com.bradesco.pdc.workbench.core_3.4.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='br.com.bradesco.pdc.workbench.deploy' version='3.4.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='62702'/>
+        <property name='download.size' value='62702'/>
+        <property name='download.md5' value='d7b2f32fbdaed4982b5c09160658b050'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/br.com.bradesco.pdc.workbench.deploy_3.4.1.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\br.com.bradesco.pdc.workbench.deploy_3.4.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.datatools.connectivity.oda.template.ui' version='3.2.0.v200906020553'>
+      <properties size='3'>
+        <property name='artifact.size' value='49024'/>
+        <property name='download.size' value='49024'/>
+        <property name='download.md5' value='e3727a877d86b5496e62c1d296d7e7c2'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.datatools.connectivity.oda.template.ui_3.2.0.v200906020553.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.datatools.connectivity.oda.template.ui_3.2.0.v200906020553.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools.ui' version='1.0.101.v20090820'>
+      <properties size='3'>
+        <property name='artifact.size' value='334512'/>
+        <property name='download.size' value='334512'/>
+        <property name='download.md5' value='dc1bac9ae92592d400bbcffd914ea111'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.pde.api.tools.ui_1.0.101.v20090820.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.pde.api.tools.ui_1.0.101.v20090820.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ds.ui' version='1.0.0.v20100209-maintenance'>
+      <properties size='3'>
+        <property name='artifact.size' value='188583'/>
+        <property name='download.size' value='188583'/>
+        <property name='download.md5' value='c5a34d51272ed02f7a865267d2ea77e9'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.pde.ds.ui_1.0.0.v20100209-maintenance.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.pde.ds.ui_1.0.0.v20100209-maintenance.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.datatools.enablement.oda.xml.ui' version='1.2.1.v201001191820'>
+      <properties size='3'>
+        <property name='artifact.size' value='175068'/>
+        <property name='download.size' value='175068'/>
+        <property name='download.md5' value='395d38f7a85b73207b4f5291438fcf2a'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.datatools.enablement.oda.xml.ui_1.2.1.v201001191820.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.datatools.enablement.oda.xml.ui_1.2.1.v201001191820.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.jautodoc.velocity' version='1.5.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='635552'/>
+        <property name='download.size' value='635552'/>
+        <property name='download.md5' value='f58815ef91e3dd1b95d2635aa8ab51d5'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/net.sf.jautodoc.velocity_1.5.0.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\net.sf.jautodoc.velocity_1.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.datatools.enablement.sap.maxdb.ui' version='1.0.0.v200906020900'>
+      <properties size='3'>
+        <property name='artifact.size' value='13359'/>
+        <property name='download.size' value='13359'/>
+        <property name='download.md5' value='1bda45c0d91ecad4bc7acf8bab9867f2'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.datatools.enablement.sap.maxdb.ui_1.0.0.v200906020900.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.datatools.enablement.sap.maxdb.ui_1.0.0.v200906020900.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.doc.user' version='3.5.0.v20090818'>
+      <properties size='3'>
+        <property name='artifact.size' value='5133466'/>
+        <property name='download.size' value='5133466'/>
+        <property name='download.md5' value='0a55a8c1a5c161073d337e876f585891'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.pde.doc.user_3.5.0.v20090818.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.pde.doc.user_3.5.0.v20090818.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tomcat' version='4.1.130.v20060601'>
+      <properties size='2'>
+        <property name='artifact.size' value='12288'/>
+        <property name='download.size' value='12288'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.tomcat_4.1.130.v20060601/'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.tomcat_4.1.130.v20060601'/>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ua.core' version='1.0.0.v20090429-1800'>
+      <properties size='3'>
+        <property name='artifact.size' value='103706'/>
+        <property name='download.size' value='103706'/>
+        <property name='download.md5' value='95f1b38ea3cfd1df39138ee72b596bf1'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.pde.ua.core_1.0.0.v20090429-1800.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.pde.ua.core_1.0.0.v20090429-1800.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsecs.branding' version='5.6.0.201209221626'>
+      <properties size='3'>
+        <property name='artifact.size' value='3647'/>
+        <property name='download.size' value='3647'/>
+        <property name='download.md5' value='d8a831aa1ad9d80b5e2dec5432908df5'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/net.sf.eclipsecs.branding_5.6.0.201209221626.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\net.sf.eclipsecs.branding_5.6.0.201209221626.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.datatools.enablement.oda.ws.ui' version='1.2.2.v201001260400'>
+      <properties size='3'>
+        <property name='artifact.size' value='96556'/>
+        <property name='download.size' value='96556'/>
+        <property name='download.md5' value='9db841963e36bb3c07bab163810a865c'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.datatools.enablement.oda.ws.ui_1.2.2.v201001260400.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.datatools.enablement.oda.ws.ui_1.2.2.v201001260400.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.datatools.connectivity.oda.design.ui' version='3.2.2.v201001210350'>
+      <properties size='3'>
+        <property name='artifact.size' value='180079'/>
+        <property name='download.size' value='180079'/>
+        <property name='download.md5' value='1b484d0b681459fe1ed351f4feb292c8'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Desenvolvimento/Eclipse/Eclipse_Lucas/Eclipse35/plugins/org.eclipse.datatools.connectivity.oda.design.ui_3.2.2.v201001210350.jar'/>
+        <property name='file.name' value='C:\Desenvolvimento\Eclipse\Eclipse_Lucas\Eclipse35\plugins\org.eclipse.datatools.connectivity.oda.design.ui_3.2.2.v201001210350.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>
